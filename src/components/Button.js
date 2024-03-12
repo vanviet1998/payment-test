@@ -4,7 +4,6 @@ import { Button } from 'antd';
 
 
 const MyButton = ({ children, className, ...props }) => {
-    console.log("classNameclassNameclassName",className)
     return (
         <Button  {...props} className={`${className} ${styles["my-button"]}`}>
             {children}

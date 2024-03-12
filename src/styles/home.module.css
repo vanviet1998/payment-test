@@ -1,0 +1,7 @@
+@import "colors.css";
+.banner-section-first{
+    background-color: var(--pinklight);
+}
+.banner-section-second{
+    background-color: var(--my-light-gray);
+}

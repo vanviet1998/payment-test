@@ -1,0 +1,26 @@
+@import "./colors.css";
+
+.payment {
+  width: 100%;
+  max-width: 500px;
+  padding: 16px;
+}
+.bank-logo {
+  width: 70px;
+  height: 30px;
+}
+.suggest-amount {
+  display: inline-block;
+  width: 23%;
+  background: var(--ghostwhite);
+  border-radius: 10px;
+  margin: 4px;
+  color: var(--gray);
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+}
+.suggest-amount:hover{
+    cursor: pointer;
+    background-color: beige;
+}

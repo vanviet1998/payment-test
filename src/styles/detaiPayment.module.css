@@ -1,0 +1,38 @@
+@import "colors.css";
+
+.detail-payment {
+  background-color: var(--gainsboro);
+  padding: 20px;
+  margin: 20px;
+}
+.detail-payment_title {
+  text-transform: uppercase;
+}
+.mute {
+  color: var(--green);
+  font-weight: bold;
+}
+.payment-id {
+  color: var(--pink);
+  font-weight: bold;
+}
+.payment-icon {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+.payment-method {
+  background-color: var(--white);
+  padding: 5px 10px;
+  margin: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--transparent-black) 0px 4px 12px;
+}
+.payment-method:hover{
+    cursor: pointer;
+    background-color: var(--pinklight);
+}

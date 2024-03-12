@@ -1,0 +1,12 @@
+:root {
+  --pinkmomo: #a50064;
+  --pink: #d82f8b;
+  --pinklight: rgb(255 240 246);
+  --mylightgray: rgb(250, 250, 250);
+  --gray: rgb(123, 127, 154);
+  --ghostwhite: #efeff1;
+  --white: white;
+  --gainsboro: #e8e8e8;
+  --green: #339933;
+  --transparent-black: rgba(0, 0, 0, 0.1);
+}
